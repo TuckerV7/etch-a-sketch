@@ -1,18 +1,44 @@
 
 #page {
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     width: 100%;
     margin: 0;
     
 }
 
+#buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+}
 
+#canvas {
+    display: flex;
+    height: 600px;
+    width: 600px;
+}
 
 #container {
     display: flex;
     flex-wrap: wrap;
-    height: 600px;
-    width: 1200px;
+    border-style: solid;
+    border-width: 2px;
+    height: 700px;
+    width: 700px;
 }
 
+.boxClass {
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.colorClass {
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    background-color: red;
+}
